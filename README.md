@@ -11,7 +11,7 @@ asmdoitall.sh
 runQUAST.sh
 
 * **Purge haplotigs with purge_dups and verify effect with BUSCO**       
-???
+runBUSCO.sh
 
 * **Check assembly completeness with BUSCO vs other assemblies**       
 runBUSCOall.sh
