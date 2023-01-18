@@ -2,7 +2,7 @@
 
 Below you can find descriptions of the scripts in this repository:
 
-###De novo Genome Assembly  
+### De novo Genome Assembly  
 
 * **QC of the reads and De novo genome assembly**    
 asmdoitall.sh
@@ -20,7 +20,7 @@ runBUSCOall.sh
 runDOT.sh
 
 
-###Genome Annotation   
+### Genome Annotation   
    
 * **Predict genes with MAKER2**    
 runMAKER.sh
