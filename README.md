@@ -6,7 +6,7 @@ Below you can find descriptions of the scripts in this repository:
 module.sh
 
 
-* **Genome annotation :**   
+* **Genome Annotation :**   
    
 * **Predict genes with MAKER2**    
 runMAKER.sh
