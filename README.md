@@ -5,7 +5,16 @@ Below you can find descriptions of the scripts in this repository:
 * **all required modules**              
 module.sh
 
+* **Predict genes with MAKER2**    
+runMAKER.sh
 
+* **Functional annotation with PANNZER**     
+runpannzer.sh
+
+* **Search for genes in the proteome (using allprot.fa)**
+module add Blast/ncbi-blast/2.10.1+
+makeblastdb -in allprot.fa -dbtype prot
+blastp -query <a protein file.fa> -db allprot.fa
 
 
 ## Summary of the goals of this project:
