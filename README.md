@@ -2,11 +2,25 @@
 
 Below you can find descriptions of the scripts in this repository:
 
-* **all required modules**              
-module.sh
+###De novo Genome Assembly  
+
+* **QC of the reads and De novo genome assembly**    
+asmdoitall.sh
+
+* **Check assembly with QUAST vs other assemblies**
+runQUAST.sh
+
+* **Purge haplotigs with purge_dups and verify effect with BUSCO**
+???
+
+* **Check assembly completeness with BUSCO vs other assemblies**
+runBUSCOall.sh
+
+* **Compare denovo assembly vs purged assembly with DOT**
+runDOT.sh
 
 
-* **Genome Annotation :**   
+###Genome Annotation   
    
 * **Predict genes with MAKER2**    
 runMAKER.sh
