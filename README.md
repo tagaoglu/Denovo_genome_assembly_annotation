@@ -4,34 +4,34 @@ Below you can find descriptions of the scripts in this repository:
 
 ### De novo Genome Assembly  
 
-* **QC of the reads and De novo genome assembly**    
+* **QC of the reads and De novo genome assembly**      
 asmdoitall.sh
 
-* **Check assembly with QUAST vs other assemblies**
+* **Check assembly with QUAST vs other assemblies**       
 runQUAST.sh
 
-* **Purge haplotigs with purge_dups and verify effect with BUSCO**
+* **Purge haplotigs with purge_dups and verify effect with BUSCO**       
 ???
 
-* **Check assembly completeness with BUSCO vs other assemblies**
+* **Check assembly completeness with BUSCO vs other assemblies**       
 runBUSCOall.sh
 
-* **Compare denovo assembly vs purged assembly with DOT**
+* **Compare denovo assembly vs purged assembly with DOT**      
 runDOT.sh
 
 
 ### Genome Annotation   
    
-* **Predict genes with MAKER2**    
+* **Predict genes with MAKER2**      
 runMAKER.sh
 
-* **Functional annotation with PANNZER**     
+* **Functional annotation with PANNZER**        
 runpannzer.sh
 
-* **Search for particular genes/proteins in the proteome with BLAST (using allprot.fa)**
-module add Blast/ncbi-blast/2.10.1+
-makeblastdb -in allprot.fa -dbtype prot
-blastp -query <a protein file.fa> -db allprot.fa
+* **Search for particular genes/proteins in the proteome with BLAST (using allprot.fa)**    
+module add Blast/ncbi-blast/2.10.1+     
+makeblastdb -in allprot.fa -dbtype prot     
+blastp -query <a protein file.fa> -db allprot.fa      
 
         
 ## Summary of the goals of this project:
