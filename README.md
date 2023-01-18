@@ -11,17 +11,19 @@ runMAKER.sh
 * **Functional annotation with PANNZER**     
 runpannzer.sh
 
-* **Search for genes in the proteome (using allprot.fa)**
+* **Search for particular genes/proteins in the proteome with BLAST (using allprot.fa)**
 module add Blast/ncbi-blast/2.10.1+
 makeblastdb -in allprot.fa -dbtype prot
 blastp -query <a protein file.fa> -db allprot.fa
 
-
+        
 ## Summary of the goals of this project:
-- Assemble de novo a SandFly genome with PacBio HiFi reads using various software
-- Purge haplotigs to avoid genome duplication
+- Performing quality control of reads using FastQC and MultiQC  
+- Assemble de novo a SandFly genome with PacBio HiFi reads using hifiasm
+- Purge haplotigs to avoid genome duplication using purge_dups
 - Compare assemblies with QUAST, BUSCO, Bandage, select best for annotation
 - Compare purged vs non-purged with DOT, identify possible bacterial contaminant
-- Gene prediction with MAKER2 and functional annotation with Pannzer
+- Gene prediction with MAKER2 
+- Functional annotation with Pannzer
 - Search for genes/proteins involved in hematophagy (blood feeding)
 - Compare with data obtained by PacBio (Korlach et al., 2020).
